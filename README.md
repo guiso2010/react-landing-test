@@ -18,3 +18,15 @@ En este projecto estamos importando desde los directorios raices. Para hacer eso
 # Tarea
 
 Crear 3 rutas nuevas, llenarlas con lo que sea y agregarlas al router con la implementacion que vimos
+
+# JSON
+
+Un JSON es la representacion de un objeto (JSON = Java Script Object Notation)
+Es un conjunto de clave/valor encerrados entre {}. Los valores pueden ser cualquier cosa, desde un texto (String), un numero (int), hasta otro JSON.
+Ej: {
+"clave1": "valor1",
+"clave2": 2,
+"clave3": {
+"otro": "json"
+}
+}
