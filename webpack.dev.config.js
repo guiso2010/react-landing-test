@@ -8,7 +8,7 @@ const MODE = "development";
 module.exports = {
   entry: "./src/index.js",
   resolve: {
-    extensions: [".js", ".jsx", ".json"],
+    extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
     modules: ["node_modules"],
     alias: {
       "@": path.resolve(__dirname, "src"),
