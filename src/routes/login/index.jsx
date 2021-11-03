@@ -1,23 +1,19 @@
 import React from "react";
-import { Button, Container, Typography } from "@material-ui/core";
+import imageBackground from "../../assets/images/FotoTarea.jpg";
+import {Container} from "@material-ui/core";
+ 
+const styles = {
+  backgroundImage: `url(${imageBackground})`
+}
 
-const Login = () => {
-  const handleButtonClick = () => {
-    alert("Hola");
-  };
 
-  return (
-    <Container>
-      <Typography>Text</Typography>
-      <Button
-        variant="outlined"
-        color="textPrimary"
-        onClick={handleButtonClick}
-      >
-        Un boton
-      </Button>
-    </Container>
-  );
-};
+const LogIn = () =>{
 
-export default Login;
+  return ( <Container style={styles}  >
+    
+  
+          </Container>
+        )
+}
+
+export default LogIn;

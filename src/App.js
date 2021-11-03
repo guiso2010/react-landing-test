@@ -4,6 +4,7 @@ import { Home, Login } from "./routes";
 import { ThemeProvider } from "@material-ui/styles";
 import theme from "./theme";
 import { CssBaseline } from "@material-ui/core";
+//import { Paper } from 'material-ui/Paper';
 
 const App = () => {
   return (

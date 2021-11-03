@@ -25,10 +25,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|tsx|ts)$/,
+        test: /\.(js|jsx|tsx|ts)$/, 
         exclude: /node_modules/,
         loader: "babel-loader",
       },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: {
+            loader: 'url-loader'
+        }
+    }
     ],
   },
   plugins: [
